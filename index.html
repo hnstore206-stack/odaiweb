@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Portfolio | Oday</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Loading Screen */
+        #loader {
+            position: fixed;
+            inset: 0;
+            background: #050505;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 0.5s ease;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(212, 175, 55, 0.1);
+            border-top-color: #d4af37;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="glow-container">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">ODAY<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="nav-btn active" data-section="hero">Home</a></li>
+            <li><a href="#about" class="nav-btn" data-section="about">About</a></li>
+            <li><a href="#work" class="nav-btn" data-section="work">Work</a></li>
+            <li><a href="#social" class="nav-btn" data-section="social">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero active-section">
+            <div class="content">
+                <h2 class="badge">Welcome to my Web</h2>
+                <h1><span id="typing-text" class="gradient-text"></span><span class="cursor">|</span></h1>
+                <p>I transform complex ideas into elegant digital solutions with a focus on luxury aesthetics and
+                    high-performance development.</p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn primary nav-btn" data-section="work">View My Projects</a>
+                    <a href="#social" class="btn secondary nav-btn" data-section="social">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="luxury-shield">
+                    <div class="shield-layer layer-1"></div>
+                    <div class="shield-layer layer-2"></div>
+                    <div class="shield-layer layer-3"></div>
+
+                    <div class="avatar-container big-avatar">
+                        <img src="https://www.raed.net/img?id=1533305" alt="Avatar" id="user-avatar">
+                        <div class="avatar-glow"></div>
+                    </div>
+
+                    <!-- Floating Elements -->
+                    <div class="floating-element f-1"><i class="fas fa-crown"></i></div>
+                    <div class="floating-element f-2"><i class="fas fa-code"></i></div>
+                    <div class="floating-element f-3"><i class="fas fa-gem"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>Behind the Code</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-bio">
+                <p> I am <span class="gold">Oday</span>. At 17, I've dedicated myself to the art of digital
+                    craftsmanship. I specialize in building immersive <strong>Discord ecosystems</strong>,
+                    high-performance <strong>Web applications</strong>, and complex systems for <strong>FiveM</strong>
+                    server environments.</p>
+                <p>I am currently the founder and owner of several major projects:</p>
+            </div>
+
+            <div id="about-grid" class="about-grid">
+                <!-- Dynamic About Cards Loaded from Config in script.js -->
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="section-header">
+                <h2>Featured Masterpieces</h2>
+                <div class="line"></div>
+            </div>
+            <div id="work-grid" class="work-grid">
+                <!-- Dynamic Projects Loaded from Config in script.js -->
+            </div>
+        </section>
+
+        <section id="social" class="social">
+            <div class="section-header">
+                <h2 class="shimmer-gold">My Social Accounts</h2>
+                <p>Available for exclusive projects and creative collaborations.</p>
+            </div>
+            <div id="social-grid" class="social-links">
+                <!-- Social links loaded dynamically from config.js -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <p>&copy; 2024 All Rights Reserved to <span class="gold">ODAY</span></p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
