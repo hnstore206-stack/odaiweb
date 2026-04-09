@@ -13,19 +13,19 @@ const projectsConfig = [
         title: "Fivem Scripts",
         description: "I am a programmer specializing in creating scripts for FiveM, and I have more than 5 scripts that have been created and sold.",
         image: "https://www.raed.net/img?id=1533358",
-        url: "#"
+        url: "https://discord.gg/JvazXm8w7y"
     },
     {
         title: "Discord Bots",
         description: "A programmer of bots with unique and innovative ideas.",
         image: "https://www.raed.net/img?id=1533357",
-        url: "#"
+        url: "https://discord.gg/JvazXm8w7y"
     },
     {
         title: "YAQEEN",
         description: "Our project is the Yaqeen app and website, a religious application that includes all the features and will be released on mobile phones soon..",
         image: "https://www.raed.net/img?id=1533354",
-        url: "#"
+        url: "https://yaqeenhn.netlify.app/"
     },
     {
         title: "Web Site",
