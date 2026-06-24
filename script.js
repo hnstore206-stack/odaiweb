@@ -14,7 +14,7 @@ let typingIndex = 0;
 let isTyping = false;
 
 // Preloader Handling
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         loader.style.opacity = '0';
         setTimeout(() => {
