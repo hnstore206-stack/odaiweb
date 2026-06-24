@@ -34,7 +34,6 @@ const projectsConfig = [
         url: "https://discord.gg/JvazXm8w7y"
     }
 ];
-];
 
 // You can also add other settings here in the future
 const siteSettings = {
