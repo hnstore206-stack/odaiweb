@@ -12,13 +12,13 @@ const projectsConfig = [
     {
         title: "Fivem Scripts",
         description: "I am a programmer specializing in creating scripts for FiveM, and I have more than 5 scripts that have been created and sold.",
-        image: "https://www.raed.net/img?id=1533358",
+        image: "https://h.top4top.io/p_3827vhatq1.png",
         url: "https://discord.gg/JvazXm8w7y"
     },
     {
         title: "Discord Bots",
         description: "A programmer of bots with unique and innovative ideas.",
-        image: "https://www.raed.net/img?id=1533357",
+        image: "https://h.top4top.io/p_3827vhatq1.png",
         url: "https://discord.gg/JvazXm8w7y"
     },
     {
@@ -30,9 +30,10 @@ const projectsConfig = [
     {
         title: "Web Site",
         description: "A programmer and excellent, modern websites, whether it's for licenses, an online store, or anything else.",
-        image: "https://www.raed.net/img?id=1533356",
-        url: "#"
+        image: "https://h.top4top.io/p_3827vhatq1.png",
+        url: "https://discord.gg/JvazXm8w7y"
     }
+];
 ];
 
 // You can also add other settings here in the future
